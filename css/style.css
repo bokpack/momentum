@@ -1,0 +1,39 @@
+body {
+    background: rgb(50,190,122);
+    background: linear-gradient(90deg, rgba(50,190,122,1) 0%, rgba(117,210,126,1) 19%, rgba(39,129,203,1) 37%, rgba(55,134,181,1) 51%, rgba(73,22,175,1) 68%, rgba(91,223,128,1) 87%, rgba(0,212,255,1) 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+#clock {
+    font-size: 60px;
+    
+    margin-bottom: 20px;
+}
+
+#greeting {
+    font-size: 25px;
+
+}
+
+#todo {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+#quote {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+#todo-form input {
+    margin-bottom: 10px; 
+}
+
